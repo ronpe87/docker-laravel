@@ -36,6 +36,6 @@ Route::get('/', function () {
 //     return $html;
 // });
 
-Route::get('hello/{id}', 'App\Http\Controllers\HelloController@index');
+Route::get('hello', 'App\Http\Controllers\HelloController@index');
 Route::get('hello/other', 'App\Http\Controllers\HelloController@other');
 Route::post('hello', 'App\Http\Controllers\HelloController@post');
